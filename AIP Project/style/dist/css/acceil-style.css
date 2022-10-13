@@ -1,0 +1,80 @@
+body {
+    background-color: #785018;
+}
+
+.border-green:hover {
+    background-color: #177927a9;
+}
+
+.carouselle-ajust {
+    width: 500px;
+    text-align: left;
+}
+
+.see-more {
+    border: 1px solid #343d58;
+    text-decoration: none;
+    color: #ffffffa9;
+    font-weight: 600;
+}
+
+.see-more:hover {
+    background-color: rgb(1, 103, 161);
+    color: white;
+}
+
+.carousel-item img {
+    filter: brightness(0) saturate(100%) invert(81%) sepia(1%) saturate(68%) hue-rotate(314deg) brightness(102%) contrast(86%);
+    filter: opacity(60%);
+}
+
+.btnPlus {
+    font-size: 14px;
+    color: rgb(218, 218, 218);
+    background-color: rgb(34, 34, 34);
+    outline-color: transparent;
+    border: none;
+    border-radius: 30px;
+}
+
+.btnPlus:hover {
+    background-color: rgb(8, 8, 8);
+}
+
+.item1,
+.Us {
+    background-color: rgb(148, 125, 22);
+}
+
+.text-service {
+    max-height: 245px;
+    overflow-y: hidden;
+    text-align: justify;
+}
+
+.representRound {
+    text-decoration: underline;
+    color: #fff;
+    font-weight: 800;
+}
+
+.rond {
+    background-color: #F2C23D;
+}
+
+.rond img {
+    filter: brightness(0) saturate(100%) invert(25%) sepia(89%) saturate(1428%) hue-rotate(49deg) brightness(97%) contrast(92%);
+}
+
+.cart {
+    background-color: #BF9930;
+}
+
+.text-cart {
+    text-align: justify;
+}
+
+.Us h1 {
+    color: white;
+    text-align: center;
+}

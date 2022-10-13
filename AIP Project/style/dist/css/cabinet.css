@@ -1,0 +1,35 @@
+.long {
+    text-align: justify;
+}
+
+.souligne {
+    text-decoration: underline;
+}
+
+.bluevif {
+    color: rgb(101, 101, 255);
+}
+
+.vision {
+    background: url(../../../assets/image/imageSolution.jpg);
+    height: 50vh;
+}
+
+.activeA {
+    background-color: rgb(104, 89, 21);
+}
+
+.blackcolor {
+    color: black!important;
+}
+
+.citation {
+    background: url(../../../assets/image/citation.jpg);
+    background-size: cover;
+    height: 120vh;
+}
+
+.colorCitation {
+    color: rgb(39, 34, 27);
+    font-weight: 600;
+}
