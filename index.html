@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIP</title>
+    <link rel="stylesheet" href="style/dist/css/style.css">
+    <link rel="stylesheet" href="style/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/dist/css/footer.css">
+    <link rel="stylesheet" href="style/dist/css/acceil-style.css">
+    <style>
+        @media (min-width: 320px) and (max-width: 983px) {
+            .navbar {
+                background-color: rgba(102, 86, 86, 0.349);
+            }
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">AIP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="cabinet.html">Le cabinet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="solutions.html">Nos solutions</a>
+                    </li>
+                    <li class="nav-item border-green">
+                        <a class="nav-link text-white" href="contact/index.html">Nous contacter</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Image  -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/image/banner1.jpg" class="d-block w-100 vh-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="d-flex justify-content-end pb-4">
+                        <div class="carouselle-ajust">
+                            <p>Vous avez une idée ? Un projet ? Vous avez déjà vos premiers clients ? Faites-vous accompagner par nos experts et garantissez votre réussite !</p>
+                            <div>
+                                <a href="#service" class="see-more p-2 px-3">Découvrez nos services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/image/banner2.jpg" class="d-block w-100 vh-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="d-flex justify-content-end pb-4">
+                        <div class="carouselle-ajust">
+                            <p>AFRICA INTEGRATION PARTNER(AIP) est un cabinet africain spécialisé dans l’accompagnement des PME et des entrepreneurs avec des expertises allant de la conception du projet à la recherche de financement en passant par le renforcement
+                                des capacités du dirigeant. </p>
+                            <div>
+                                <a href="#us" class="see-more p-2 px-3">Qui sommes-nous?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/image/banner3.jpg" class="d-block w-100 vh-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="d-flex justify-content-end pb-4">
+                        <div class="carouselle-ajust">
+                            <p>Nous sommes un peu partout en afrique pour vous acompagner</p>
+                            <div>
+                                <a href="cabinet" class="see-more p-2 px-3">Decouvrer nos cabinet</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="container my-3">
+        <div class="service d-flex">
+            <div class="item item1 col-6 p-2" id="service">
+                <h1>Nos services</h1>
+                <p class="text-service">
+                    Africa integration parterner intervient dans trois grandes branches que sont : l’étude, la formation et la recherche de financement. Pour en savoir plus sur cliquez sur chaque service -Formations « Education est la plus puissante qu'on puisse utiliser
+                    pour changer le monde »Nelson Mandela Chez aip nous croyons fortement en cette citation de Nelson Mandela par l'entremise des formations que nous distillons aux jeunes diplômés. Nous offrons également ce service aux jeunes cadres et
+                    entreprises. Jeunes Diplômés Entrepreneurs Cadres Recevoir le calendrier Recevoir le calendrier Recevoir le calendrier - Etudes, conseil et accompagnement « Celui qui a une bonne idée mais ne sait pas la vend n'est pas plus avancé
+                    que celui qui n'en a pas » Notre cabinet s'inspire fortement de cette pensée d'Abraham Lincoln en offrant des conseils sur tous les métiers pouvant aller de votre réflexion stratégique jusqu'au financement en passant par la sécurisation
+                    juridique et fiscal de votre business.
+
+                </p>
+                <div class="container d-flex justify-content-end">
+                    <button class="btnPlus p-2 px-4">VOIR PLUS</button>
+                </div>
+            </div>
+            <div class="item bg-primary col-6">
+                <img src="assets/image/img1.jpg" width="100%" height="auto" alt="" srcset="">
+            </div>
+        </div>
+        <div class="container row px-5 py-4">
+            <div class="cart rounded-3 mx-3 col gap-2 my-2" style="width:350px;height: 550px;">
+                <div class="d-flex justify-content-center text-center">
+                    <div class="title py-3">
+                        <div class="rond rounded-circle  d-flex justify-content-center align-content-center" style="width: 170px;height: 170px;">
+                            <img src="assets/logos/analys.svg" width="70%" height="auto" alt="" srcset="">
+                        </div>
+                        <span class="representRound">Etude</span>
+                    </div>
+                </div>
+                <div class="text-cart container py-3">
+                    <p>« Celui qui a une bonne idée mais ne sait pas la vend n'est pas plus avancé que celui qui n'en a pas » Notre cabinet s'inspire fortement de cette pensée d'Abraham Lincoln en offrant des conseils sur tous les métiers pouvant aller de
+                        votre réflexion stratégique jusqu'au financement en passant par la sécurisation juridique et fiscal de votre business
+                    </p>
+                </div>
+            </div>
+            <div class="cart rounded-3 mx-3 col my-2" style="width:350px;height: 550px;">
+                <div class="d-flex justify-content-center text-center">
+                    <div class="title py-3">
+                        <div class="rond rounded-circle d-flex justify-content-center align-content-center" style="width: 170px;height: 170px;">
+                            <img src="assets/logos/EtudeLogos.svg" alt="" srcset="">
+                        </div>
+                        <span class="representRound">Formation</span>
+                    </div>
+                </div>
+                <div class="text-cart container py-3">
+                    <p>« Education est la plus puissante qu'on puisse utiliser pour changer le monde »Nelson Mandela Chez aip nous croyons fortement en cette citation de Nelson Mandela par l'entremise des formations que nous distillons aux jeunes diplômés.
+                        Nous offrons également ce service aux jeunes cadres et entreprises.
+                    </p>
+                </div>
+            </div>
+            <div class="cart rounded-3 mx-3 col my2" style="width:350px;height: 550px;">
+                <div class="d-flex justify-content-center text-center">
+                    <div class="title py-3">
+                        <div class="rond rounded-circle d-flex justify-content-center align-content-center" style="width: 170px;height: 170px;">
+                            <img src="assets/logos/bank.svg" width="70%" height="auto" alt="" srcset="">
+                        </div>
+                        <span class="representRound">Financement</span>
+                    </div>
+                </div>
+                <div class="text-cart container py-3">
+                    <p>« N’essayez pas de tout faire par vous-même, mais essayez de vous connecter avec les gens et les ressources ». </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="Us py-3" id="us">
+            <h1>Qui sommes-nous?</h1>
+            <div class="d-flex">
+                <div class="item col-6 d-flex justify-content-center pt-5">
+                    <img src="assets/image/service1.jpg" width="90%" height="80%" alt="" srcset="">
+                </div>
+                <div class="item item1 col-6 p-2">
+                    <h1>Fondateur</h1>
+                    <p class="text-service p-4">
+                        Freddy KOUDAHOUA est financier et gestionnaire de projet de formation. Il compte à son active une carrière à l'international et plus de 12 années d’expérience dans divers domaines d'activités tels que : les Télécoms, Médias, Textile, vente, finances,
+                        Management, Assurances, négoce, gestion de projet. C'est un geek de l'entreprenariat et de l’apprentissage. La passion, Intégrité, l'Engagement, l’Audace et les relations centrées sur l'humain sont les valeurs auxquelles il s’accroche.
+                    </p>
+                    <div class="container d-flex justify-content-end">
+                        <button class="btnPlus p-2 px-4">VOIR PLUS</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="d-flex" id="history">
+                <div class="item item1 col-6 p-2">
+                    <h1>Notre histoire</h1>
+                    <p class="text-service p-4">
+                        <strong> AFRICA INTEGRATION PARTNER(AIP) </strong>est un cabinet africain spécialisé dans l’accompagnement des PME et des entrepreneurs avec des expertises allant de la conception du projet à la recherche de financement en passant
+                        par le renforcement des capacités du dirigeant. Pour ce faire, nous opérons dans le consulting, le coaching, l’étude et l’accompagnement des cibles prédéfinies. En parallèle, nous formons également les entrepreneurs, cadres et
+                        jeunes diplômés sur plusieurs thématiques. Nos domaines de prédilection sont :
+                    </p>
+                    <div class="container d-flex justify-content-end">
+                        <button class="btnPlus p-2 px-4">VOIR PLUS</button>
+                    </div>
+                </div>
+                <div class="item col-6 d-flex justify-content-center pt-5">
+                    <img src="assets/image/growtogether.jpg" width="90%" height="80%" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- footer -->
+
+    <footer class="footer-10">
+        <div class="container">
+            <div class="row mb-5 pb-3 no-gutters">
+                <div class="col-md-4 mb-md-0 mb-4 d-flex">
+                    <div class="con con-1 w-100 py-5">
+                        <div class="con-info w-100 text-center">
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <span><i class="fa-solid fa-phone"></i></span>
+                            </div>
+                            <div class="text">
+                                <span>Togo: +22879860999 </span>
+                            </div>
+                            <div class="text">
+                                <span>Côte d’Ivoire +2250101460000 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-md-0 mb-4 d-flex">
+                    <div class="con con-2 w-100 py-5">
+                        <div class="con-info w-100 text-center">
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <span><i class="fa-solid fa-envelope"></i></span>
+                            </div>
+                            <div class="text">
+                                <span>freddkoudahoua@gmail.com (To be changed after)</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-md-0 mb-4 d-flex">
+                    <div class="con con-3 w-100 py-5">
+                        <div class="con-info w-100 text-center">
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <span><i class="fa-solid fa-location-dot"></i></span>
+                            </div>
+                            <div class="text">
+                                <span>Nukafu, Rue en face de la Direction Générale de la SOTRAL, Immeuble MENSANH </span>
+                            </div>
+                            <div class="text">
+                                <span>Cocody Ambassades, A57 Rue du Bélier, Villa COLOMB </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-md-4 mb-md-0 mb-4">
+                            <h2 class="footer-heading">A propos</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="#history" class="d-block">Notre histoire</a></li>
+                                <li><a href="#" class="d-block">Politique et confidentialité</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 mb-md-0 mb-4">
+                            <h2 class="footer-heading">Le cabinet</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="#service" class="d-block">Nos services</a></li>
+                                <li><a href="#" class="d-block">Nos clients</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 mb-md-0 mb-4">
+                            <h2 class="footer-heading">Ressources</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="index.html" class="d-block">Accueil</a></li>
+                                <li><a href="#" class="d-block">Téléchargement</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 mb-md-0 mb-4">
+                    <h2 class="footer-heading">S'abonner</h2>
+                    <form action="#" class="subscribe-form">
+                        <div class="form-group d-flex">
+                            <input type="text" class="form-control rounded-left" placeholder="Entrer votre adresse email">
+                            <button type="submit" class="form-control submit rounded-right">S'abonner</button>
+                        </div>
+                        <span class="subheading">Recevoir nos actualités par email</span>
+                    </form>
+                </div>
+            </div>
+            <div class="row mt-5 pt-4 border-top">
+                <div class="col-md-6 col-lg-8 mb-md-0 mb-4">
+                    <p class="copyright mb-0">
+                        Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> Tout droit reservé
+
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-4 text-md-right">
+                    <ul class="ftco-footer-social p-0">
+                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span ><i class="fa-brands fa-facebook"></i></span></a></li>
+                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><span><i class="fa-brands fa-linkedin-in"></i></span></a></li>
+                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="style/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+        var nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 100) {
+                nav.classList.add('scrollColor', 'shadow');
+            } else {
+                nav.classList.remove('scrollColor', 'shadow');
+            }
+        });
+    </script>
+</body>
+
+</html>
