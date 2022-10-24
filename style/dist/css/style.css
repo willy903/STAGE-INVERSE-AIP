@@ -12,12 +12,20 @@ p {
     background-color: #422E07;
 }
 
-.navbar-nav .border-green {
-    border: #1a8f00 solid 1px;
+.nav-item .nav-link {
+    font-size: 20px;
+}
+
+.navbar- .border-green {
+    border: #18530b solid 1px;
+}
+
+.border-green:hover {
+    background-color: #325218ef;
 }
 
 .active {
-    color: #686588!important;
+    color: #a1bb5b!important;
     font-weight: 800;
 }
 

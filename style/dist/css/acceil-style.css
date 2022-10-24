@@ -2,41 +2,29 @@ body {
     background-color: #785018;
 }
 
-.border-green:hover {
-    background-color: #177927a9;
-}
-
 .carousel {
     margin-bottom: 4rem;
 }
 
-.carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
-}
-
 .carousel-item {
-    height: 32rem;
+    position: relative;
+    background-color: #000;
 }
 
-.carousel-item>img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: 32rem;
+.ex {
+    z-index: 30;
 }
 
 .see-more {
     border: 1px solid #343d58;
     text-decoration: none;
-    color: #ffffffa9;
     font-weight: 600;
+    background-color: #325218;
+    color: white;
 }
 
 .see-more:hover {
-    background-color: rgb(1, 103, 161);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .btnPlus {
