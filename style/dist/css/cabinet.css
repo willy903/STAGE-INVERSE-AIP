@@ -1,5 +1,23 @@
+.capitionText {
+    top: 30%;
+}
+
+.row-cart col {
+    height: 200px;
+}
+
+.capitionText p {
+    font-size: 30px;
+    background: rgba(66, 82, 11, 0.603);
+}
+
 .long {
     text-align: justify;
+}
+
+.long .titre {
+    color: #0e295c;
+    font-size: 20px;
 }
 
 .souligne {
@@ -7,7 +25,7 @@
 }
 
 .bluevif {
-    color: rgb(101, 101, 255);
+    color: rgb(97, 15, 35);
 }
 
 .vision {
@@ -32,4 +50,82 @@
 .colorCitation {
     color: rgb(39, 34, 27);
     font-weight: 600;
+    font-size: 28px;
+}
+
+.colorCitation p {
+    text-align: right;
+}
+
+.ajust img {
+    filter: brightness(0) saturate(100%) invert(23%) sepia(8%) saturate(2995%) hue-rotate(131deg) brightness(94%) contrast(91%);
+}
+
+.longText h1 {
+    color: #1b4949;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 250px;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+}
+
+
+/* This container is needed to position the front and back side */
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+
+/* Position the front and back side */
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+.flip-card-front h1 {
+    color: #009249;
+}
+
+
+/* Style the front side (fallback if image is missing) */
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+
+/* Style the back side */
+
+.flip-card-back {
+    background-color: #11943d;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.filtImg img {
+    filter: brightness(0) saturate(100%) invert(61%) sepia(51%) saturate(6851%) hue-rotate(191deg) brightness(101%) contrast(101%);
 }
