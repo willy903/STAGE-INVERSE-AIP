@@ -18,7 +18,12 @@ body {
 .see-more {
     border: 1px solid #343d58;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
     background-color: #325218;
     color: white;
 }

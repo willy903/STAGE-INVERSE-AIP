@@ -98,11 +98,12 @@ footer {
 }
 
 .footer-10 .list-unstyled li a {
-    color: rgba(255, 255, 255, 0.2);
+    color: #f3d676;
+    text-decoration: none;
 }
 
 .footer-10 .list-unstyled li a:hover {
-    color: #fff;
+    color: rgb(128, 73, 10);
 }
 
 .footer-10 .con-info .icon {
@@ -191,4 +192,5 @@ footer {
 .footer-10 .ftco-footer-social li a {
     background: rgba(255, 255, 255, 0.1);
     color: #fff;
+    text-decoration: none;
 }

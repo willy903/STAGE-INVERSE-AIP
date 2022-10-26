@@ -14,15 +14,22 @@
     <link rel="stylesheet" href="style/dist/css/footer.css">
     <link rel="stylesheet" href="style/dist/css/style-solution.css">
     <style>
-        @media (min-width: 320px) and (max-width: 983px) {
+        @media (min-width: 320px) and (max-width: 480px) {
             .navbar {
-                background-color: rgba(102, 86, 86, 0.349);
+                background-color: rgba(255, 0, 0, 0.349);
+            }
+            .letters {
+                font-size: 18px;
+            }
+            .logoAssets div img {
+                width: 70%;
+                height: auto;
             }
         }
         
-        @media screen and (max-width: 600px) {
-            .letters {
-                font-size: 18px;
+        @media (min-width: 480px) and (max-width: 983px) {
+            .navbar {
+                background-color: rgba(102, 86, 86, 0.349);
             }
         }
     </style>
@@ -162,8 +169,8 @@
     <div class="w-100 mt-5">
         <div class="w-100 top-0">
             <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-                    <h1 class="text-warning">Nos secteurs:</h1>
+                <a href="#" class="list-group-item list-group-item-action" style="background-color: rgb(99, 169, 201);" aria-current="true">
+                    <h1 style="color: rgb(59, 56, 11);">Nos secteurs:</h1>
                 </a>
                 <a href="#" class="list-group-item list-group-item-action">
                     <div class="ps-5 d-flex w-100 justify-content-between">
@@ -210,14 +217,16 @@
                 </a>
 
             </div>
-            <div class="row mx-0 my-5">
-                <div class="col cardSolution filterblue"><img src="assets/image/cell-tower.png"></div>
-                <div class="col cardSolution filterblue"><img src="assets/image/cosmetics.png" alt="" srcset=""></div>
-                <div class="col cardSolution filterblue"><img src="assets/image/export.png" alt=""></div>
-                <div class="col cardSolution filterblue"><img src="assets/image/factory.png" alt="" srcset=""></div>
-                <div class="col cardSolution filterblue"><img src="assets/image/market.png" alt=""></div>
-                <div class="col cardSolution filterblue"><img src="assets/image/restaurant.png" alt="" srcset=""></div>
-                <div class="col cardSolution filterblue"><img src="assets/image/transportation.png" alt="" srcset=""></div>
+            <div class="container d-flex justify-content-center">
+                <div class="d-flex justify-content-center row row-cols-2 row-cols-sm-4 row-cols-md-4 px-3 my-5 logoAssets">
+                    <div class="col cardSolution filterblue"><img src="assets/image/cell-tower.png"></div>
+                    <div class="col cardSolution filterblue"><img src="assets/image/cosmetics.png" alt="" srcset=""></div>
+                    <div class="col cardSolution filterblue"><img src="assets/image/export.png" alt=""></div>
+                    <div class="col cardSolution filterblue"><img src="assets/image/factory.png" alt="" srcset=""></div>
+                    <div class="col cardSolution filterblue"><img src="assets/image/market.png" alt=""></div>
+                    <div class="col cardSolution filterblue"><img src="assets/image/restaurant.png" alt="" srcset=""></div>
+                    <div class="col cardSolution filterblue"><img src="assets/image/transportation.png" alt="" srcset=""></div>
+                </div>
             </div>
         </div>
 
@@ -323,6 +332,8 @@
                         <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span ><i class="fa-brands fa-facebook"></i></span></a></li>
                         <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><span><i class="fa-brands fa-linkedin-in"></i></span></a></li>
                         <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="instagram"><span><i class="fa-brands fa-instagram"></i></span></a></li>
+
                     </ul>
                 </div>
             </div>

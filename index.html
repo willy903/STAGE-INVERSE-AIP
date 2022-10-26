@@ -13,28 +13,27 @@
     <link rel="stylesheet" href="style/dist/css/footer.css">
     <link rel="stylesheet" href="style/dist/css/acceil-style.css">
     <style>
-        @media (min-width: 320px) and (max-width: 983px) {
+        @media (min-width: 320px) and (max-width: 480px) {
+            .navbar {
+                background-color: rgba(255, 0, 0, 0.349);
+            }
+            .carousel-caption p {
+                font-size: 12px;
+            }
+            .lonTp {
+                font-size: 8px;
+                line-height: normal;
+                font-weight: 200;
+            }
+            .see-more {
+                font-size: 12px;
+                padding: 3px;
+            }
+        }
+        
+        @media (min-width: 480px) and (max-width: 983px) {
             .navbar {
                 background-color: rgba(102, 86, 86, 0.349);
-            }
-            .carousel-caption {
-                z-index: 10;
-            }
-        }
-        
-        html {
-            scroll-behavior: smooth;
-        }
-        
-        @media screen and (min-width: 601px) {
-            .res {
-                font-size: 20px;
-            }
-        }
-        
-        @media screen and (max-width: 600px) {
-            .resp {
-                font-size: 18px;
             }
         }
     </style>
@@ -82,7 +81,7 @@
                 <div class="ex container">
                     <div class="carousel-caption text-start">
                         <p class="resp">Vous avez une idée ? Un projet ? Vous avez déjà vos premiers clients ? Faites-vous accompagner par nos experts et garantissez votre réussite !</p>
-                        <p><a href="#service" class="see-more p-2 px-3">Découvrez nos services</a></p>
+                        <p><a href="#service" class="see-more">Découvrez nos services</a></p>
                     </div>
                 </div>
             </div>
@@ -92,9 +91,9 @@
                 </div>
                 <div class="container">
                     <div class="carousel-caption text-center">
-                        <p class="resp mx-auto" style="background-color: rgba(143, 135, 26, 0.342);">AFRICA INTEGRATION PARTNER(AIP) est un cabinet africain spécialisé dans l’accompagnement des PME et des entrepreneurs avec des expertises allant de la conception du projet à la recherche de financement en passant par le renforcement
+                        <p class="lonTp resp mx-auto" style="background-color: rgba(143, 135, 26, 0.342);">AFRICA INTEGRATION PARTNER(AIP) est un cabinet africain spécialisé dans l’accompagnement des PME et des entrepreneurs avec des expertises allant de la conception du projet à la recherche de financement en passant par le renforcement
                             des capacités du dirigeant. </p>
-                        <p><a href="#us" class="see-more p-2 px-3">Qui sommes-nous?</a></p>
+                        <p><a href="#us" class="see-more">Qui sommes-nous?</a></p>
                     </div>
                 </div>
             </div>
@@ -103,9 +102,9 @@
                     <img src="assets/image/banner3.jpg" width="100%" height="auto" alt="" srcset="">
                 </div>
                 <div class="container">
-                    <div class="carousel-caption text-end">
-                        <p class="resp w-100">Nous sommes un peu partout en afrique pour vous acompagner</p>
-                        <p><a href="cabinet" class="see-more p-2 px-3">Decouvrer nos cabinet</a></p>
+                    <div class="carousel-caption">
+                        <p class="resp mx-auto">Nous sommes un peu partout en afrique pour vous acompagner</p>
+                        <p><a href="cabinet" class="see-more">Decouvrer nos cabinet</a></p>
                     </div>
                 </div>
             </div>
@@ -122,8 +121,8 @@
     <!-- --------------------------------------------------- -->
 
     <!-- Main Content Area -->
-    <div class="container my-3">
-        <div class="service row mx-0 row-cols-1 row-cols-sm-2 row-cols-md-2 item1">
+    <div class="container">
+        <div class="service row mx-0 row-cols-1 row-cols-sm-2 row-cols-md-3 item1">
             <div class="col p-2" id="service">
                 <h1>Nos services</h1>
                 <p class="text-service">
@@ -142,7 +141,7 @@
 
             </div>
         </div>
-        <div class="container row mx-0 px-5 py-4">
+        <div class="row mx-0 py-4">
             <div class="cart rounded-3 mx-3 col gap-2 my-2">
                 <div class="d-flex justify-content-center text-center">
                     <div class="title py-3">
@@ -324,6 +323,7 @@
                         <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span ><i class="fa-brands fa-facebook"></i></span></a></li>
                         <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><span><i class="fa-brands fa-linkedin-in"></i></span></a></li>
                         <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="instagram"><span><i class="fa-brands fa-instagram"></i></span></a></li>
                     </ul>
                 </div>
             </div>

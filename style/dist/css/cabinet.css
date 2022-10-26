@@ -41,16 +41,19 @@
     color: black!important;
 }
 
-.citation {
-    background: url(../../../assets/image/citation.jpg);
-    background-size: cover;
-    height: 120vh;
-}
-
 .colorCitation {
     color: rgb(39, 34, 27);
     font-weight: 600;
     font-size: 28px;
+}
+
+.citation {
+    width: 50%;
+    top: 10%;
+}
+
+.citation p {
+    text-align: justify;
 }
 
 .colorCitation p {

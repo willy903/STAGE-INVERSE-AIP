@@ -13,7 +13,28 @@
     <link rel="stylesheet" href="style/dist/css/footer.css">
     <link rel="stylesheet" href="style/dist/css/cabinet.css">
     <style>
-        @media (min-width: 320px) and (max-width: 983px) {
+        @media (min-width: 320px) and (max-width: 480px) {
+            .navbar {
+                background-color: rgba(255, 0, 0, 0.349);
+            }
+            .citation p {
+                font-size: 9px;
+            }
+            .citation h6 {
+                font-size: 10px;
+            }
+            .citation {
+                width: 50%;
+            }
+            .capitionText p {
+                font-size: 14px;
+            }
+            .capitionText {
+                margin-top: 50px;
+            }
+        }
+        
+        @media (min-width: 480px) and (max-width: 983px) {
             .navbar {
                 background-color: rgba(102, 86, 86, 0.349);
             }
@@ -96,8 +117,8 @@
 
     </div>
     <div class="container d-flex justify-content-center mb-5">
-        <div class="row">
-            <div class="cart rounded-3 col">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+            <div class="cart rounded-3 col mb-3 d-flex justify-content-center">
                 <div class="flip-card" style="width:300px;height:300px;">
                     <div class="flip-card-inner">
                         <div class="flip-card-front pt-5" style="background-color:#2ad1b5 ;">
@@ -111,7 +132,7 @@
                     </div>
                 </div>
             </div>
-            <div class="cart rounded-3 col">
+            <div class="cart rounded-3 col mb-3 d-flex justify-content-center">
                 <div class="flip-card" style="width:300px;height:300px;">
                     <div class="flip-card-inner">
                         <div class="flip-card-front pt-5" style="background-color:#ffe550 ;">
@@ -125,7 +146,7 @@
                     </div>
                 </div>
             </div>
-            <div class="cart rounded-3 col">
+            <div class="cart rounded-3 col mb-3 d-flex justify-content-center">
                 <div class="flip-card" style="width:300px;height:300px;">
                     <div class="flip-card-inner">
                         <div class="flip-card-front pt-5" style="background-color:#2ad1b5 ;">
@@ -142,11 +163,12 @@
         </div>
     </div>
 
-    <div class="w-100 citation d-flex align-content-center">
-        <div class="d-flex flex-column align-items-start w-50 p-5 justify-content-center" style="background-color: #0e295c5d;box-shadow:20px 0px 16px #0e295c5d;">
-            <p class="display-6 w-75 colorCitation"><img src="assets/image/quote.svg" width="50px" height="auto"> Passionné par le renforcement des capacités, il a toujours été distingué pour ses aptitudes à faire monter en compétence ses équipes.
+    <div class="w-100 d-flex align-content-center position-relative">
+        <img src="assets/image/citation.jpg" alt="citation" width="100%" height="auto">
+        <div class="d-flex flex-column align-items-start citation px-5 pb-3 pt-5 justify-content-center position-absolute" style="top:calc(30%-35px);background-color: #0e295c5d;box-shadow:20px 0px 16px #0e295c5d;">
+            <p class="display-6 colorCitation"><img src="assets/image/quote.svg" width="20px" height="auto"> Passionné par le renforcement des capacités, il a toujours été distingué pour ses aptitudes à faire monter en compétence ses équipes.
             </p>
-            <h6 class="w-75 text-end" style="border-bottom: 2px solid red;color: rgb(0, 0, 0);font-size: 30px;">Meyriem CHFIRI</h6>
+            <h6 class="text-end" style="border-bottom: 2px solid red;color: rgb(0, 0, 0);">Meyriem CHFIRI</h6>
         </div>
     </div>
     <!-- footer -->
@@ -251,6 +273,7 @@
                         <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span ><i class="fa-brands fa-facebook"></i></span></a></li>
                         <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><span><i class="fa-brands fa-linkedin-in"></i></span></a></li>
                         <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="instagram"><span><i class="fa-brands fa-instagram"></i></span></a></li>
                     </ul>
                 </div>
             </div>
