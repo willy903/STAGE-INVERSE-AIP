@@ -82,3 +82,7 @@ body {
     color: white;
     text-align: center;
 }
+
+.bg-banner2 {
+    background-color: rgba(71, 65, 8, 0.521);
+}
