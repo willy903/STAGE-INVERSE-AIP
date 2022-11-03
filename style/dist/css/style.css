@@ -13,23 +13,27 @@ p {
 }
 
 .scrollColor {
-    background-color: #422E07;
+    background-color: #c2902e;
 }
 
 .nav-item .nav-link {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .navbar- .border-green {
-    border: #18530b solid 1px;
+    border: #ff0000 solid 2px;
+}
+
+.border_ajus {
+    border: #2d1eb4 solid 1px;
 }
 
 .border-green:hover {
-    background-color: #325218ef;
+    background-color: #1d1864ef;
 }
 
 .active {
-    color: #a1bb5b!important;
+    color: #2d1eb4!important;
     font-weight: 800;
 }
 
