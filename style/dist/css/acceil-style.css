@@ -51,7 +51,6 @@ body {
 }
 
 .text-service {
-    max-height: 245px;
     overflow-y: hidden;
     text-align: justify;
 }
