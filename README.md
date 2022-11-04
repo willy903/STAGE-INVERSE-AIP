@@ -7,3 +7,4 @@ Document/Rapport des travaux de marketing : https://github.com/ian617/STAGE-INVE
 
 Répartition des tâches réalisées par les membres du groupe : https://github.com/ian617/STAGE-INVERSE-AIP/blob/main/R%C3%A9partition%20des%20t%C3%A2ches.docx
 
+
