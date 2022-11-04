@@ -25,7 +25,7 @@ p {
 }
 
 .border_ajus {
-    border: #2d1eb4 solid 1px;
+    border: #2d1eb4 solid 1px!important;
 }
 
 .border-green:hover {
